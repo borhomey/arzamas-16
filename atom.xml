@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Мосты Сарова]]></title>
+  <link href="http://arzamas-16.ru/atom.xml" rel="self"/>
+  <link href="http://arzamas-16.ru/"/>
+  <updated>2014-02-14T19:25:14+04:00</updated>
+  <id>http://arzamas-16.ru/</id>
+  <author>
+    <name><![CDATA[author]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Вторая запись]]></title>
+    <link href="http://arzamas-16.ru/vtoroj-post/"/>
+    <updated>2013-12-29T13:21:52+04:00</updated>
+    <id>http://arzamas-16.ru/vtoroj-post</id>
+    <content type="html"><![CDATA[<p>Вторая запись будет короче первой, потому что это тестовая запись.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Первая запись]]></title>
+    <link href="http://arzamas-16.ru/first/"/>
+    <updated>2013-12-29T13:09:19+04:00</updated>
+    <id>http://arzamas-16.ru/first</id>
+    <content type="html"><![CDATA[<p>Вот и состоялось долгожданное открытие сайта про мосты Сарова. Сайт планировался уже давно, каждый мост, встреченный в городе, был напоминанием о том, что пора делать сайт и вот, прекрасным зимним утром 29 декабря 2013 года сайт решено было открыть на свежезарегистрированном домене arzamas-16.ru</p>
+]]></content>
+  </entry>
+  
+</feed>
