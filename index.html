@@ -89,11 +89,13 @@
         </header>
       
       <div class="entry-content">
-        <!--
+        Перед вами карта, на которой отмечены разнообразные мосты города Сарова. Для получения дополнительной информации по каждому мосту достаточно нажать на маркер и далее пройти по ссылке.
+
+<!--
         Подключаем API карт
         Параметры:
           - load=package.standard - основные компоненты;
-	      - lang=ru-RU - язык русский.
+	      - lang=ru-RU - язык русский. 
     -->
     <script src="http://api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
 
@@ -114,6 +116,14 @@ function init () {
             balloonContentBody: "Пешеходный мост, соединяющий старый и новый районы Сарова, является одной из местных достопримечательностей",
             balloonContentFooter: "Читать подробнее <a href='http://arzamas-16.ru/visyachij-most'>про висячий мост</a>",
             hintContent: "Висячий мост"
+        });
+
+        MostBalykovo = new ymaps.Placemark([54.973907, 43.305295], {
+            // &lon=
+            balloonContentHeader: "Мост в Балыково",
+            balloonContentBody: "Мост через Вичкинзу, находится в Балыково",
+            balloonContentFooter: "Читать подробнее про <a href='http://arzamas-16.ru/most-v-balykovo'>мост в Балыково</a>",
+            hintContent: "Мост в Балыково"
         });
 
         MostKhar = new ymaps.Placemark([54.938126, 43.336977], {
@@ -260,14 +270,7 @@ MostProtyazhkaSarovka = new ymaps.Placemark([54.865704, 43.470701], {
             hintContent: "Мост на между Протяжкой и Саровкой"
         });
 
-//Мост через р. Вичкинза (автопешеходный): 54.973901&lon=43.305391
-MostProtyazhkaSarovka = new ymaps.Placemark([54.973901, 43.305391], {
-            
-            balloonContentHeader: "Мост через р. Вичкинза",
-            balloonContentBody: "Мост через Вичкинзу автомобильный и одновременно пешеходный",
-            balloonContentFooter: "Подробности про <a href='http://arzamas-16.ru/most-vichkinza'>Мост через реку Вичкинза</a>",
-            hintContent: "Мост через реку Вичкинза"
-        });
+
 
 
 //Мост-бревно через Вичкинзу (пешеходный): 54.976893&lon=43.303637
@@ -278,6 +281,7 @@ MostProtyazhkaSarovka = new ymaps.Placemark([54.973901, 43.305391], {
     myMap.geoObjects.add(MostVtorKrem);
     myMap.geoObjects.add(MostPerAvtoKrem);
     myMap.geoObjects.add(MostTretijKrem);
+    myMap.geoObjects.add(MostBalykovo);
 //another
     myMap.geoObjects.add(MostSerafim);
     myMap.geoObjects.add(MostBassejn);
@@ -304,23 +308,7 @@ myMap.container.fitToViewport();
       </div>
       
         <footer>
-          <p class="meta text-muted">
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-29T13:19:00+04:00" pubdate data-updated="true">Dec 29<span>th</span>, 2013</time>
-          </p>
+          
           
             <div class="sharing">
   

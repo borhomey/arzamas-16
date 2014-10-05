@@ -2,11 +2,11 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://arzamas-16.ru/first/</loc>
-        <lastmod>2013-12-29T13:14:48+04:00</lastmod>
+        <lastmod>2013-12-29T13:14:49+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/vtoroj-post/</loc>
-        <lastmod>2013-12-29T13:22:20+04:00</lastmod>
+        <lastmod>2013-12-29T13:22:21+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/blog/archives/</loc>
@@ -14,35 +14,42 @@
     </url>
     <url>
         <loc>http://arzamas-16.ru/blog/</loc>
-        <lastmod>2013-12-29T13:22:20+04:00</lastmod>
+        <lastmod>2013-12-29T13:22:21+04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://arzamas-16.ru/index (Octopress Blogging&apos;s conflicted
+            copy 2014-02-03).html
+        </loc>
+        <lastmod>2014-02-03T19:50:04+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/</loc>
-        <lastmod>2014-02-03T11:38:54+04:00</lastmod>
+        <lastmod>2014-10-05T10:17:56+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/components.html</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/css.html</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/customize.html</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/getting-started.html</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/</loc>
-        <lastmod>2013-12-29T13:22:20+04:00</lastmod>
+        <lastmod>2013-12-29T13:22:21+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/javascripts/libs/bootstrap-3.0.0/javascript.html</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/most-na-kharitona/</loc>
@@ -54,15 +61,19 @@
     </url>
     <url>
         <loc>http://arzamas-16.ru/most-u-bassejna/</loc>
-        <lastmod>2014-01-06T12:31:30+04:00</lastmod>
+        <lastmod>2014-01-06T12:31:31+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/most-u-plotiny/</loc>
-        <lastmod>2014-01-06T12:31:30+04:00</lastmod>
+        <lastmod>2014-01-06T12:31:31+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/most-u-serafima/</loc>
-        <lastmod>2014-01-06T12:31:30+04:00</lastmod>
+        <lastmod>2014-01-06T12:31:31+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arzamas-16.ru/most-v-balykovo/</loc>
+        <lastmod>2014-10-05T10:13:03+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/pervyj-avto-kremeshki/</loc>
@@ -78,11 +89,11 @@
     </url>
     <url>
         <loc>http://arzamas-16.ru/robots.txt</loc>
-        <lastmod>2013-12-29T13:07:42+04:00</lastmod>
+        <lastmod>2013-12-29T13:07:43+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/tretij-visyachij-kremeshki/</loc>
-        <lastmod>2014-01-06T12:07:28+04:00</lastmod>
+        <lastmod>2014-01-06T12:07:29+04:00</lastmod>
     </url>
     <url>
         <loc>http://arzamas-16.ru/visyachij-most/</loc>
@@ -91,12 +102,5 @@
     <url>
         <loc>http://arzamas-16.ru/vtoroj-visyachij-kremeshki/</loc>
         <lastmod>2014-01-06T12:07:42+04:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://arzamas-16.ru/index (Octopress Blogging&apos;s conflicted
-            copy 2014-02-03).html
-        </loc>
-        <lastmod>2014-02-03T19:50:04+04:00</lastmod>
     </url>
 </urlset>
