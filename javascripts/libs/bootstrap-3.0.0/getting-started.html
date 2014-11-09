@@ -3,37 +3,76 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Getting started  | Мосты Сарова</title>
+	<title>Getting started - Мосты Сарова</title>
+	<meta name="author" content="author">
 
-	<meta name="author" content="author"> 
 	
-	<meta name="description" content="<!-- Getting started ================================================== --> Download Bootstrap There are a few easy ways to quickly get started with &hellip;"> <meta name="keywords" content="">
-
+	<meta name="description" content="<!-- Getting started ================================================== --> Download Bootstrap There are a few easy ways to quickly get started with &hellip;">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="http://arzamas-16.ru/atom.xml" rel="alternate" title="Мосты Сарова" type="application/atom+xml">
 	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	
 </head>
 
 
-
 <body>
-	<header id="header" class="inner"><h1>Мосты Сарова</h1>
-<nav id="main-nav"><ul>
+	<header id="header" class="inner"><h1><a href="/">Мосты Сарова</a></h1>
+<nav id="main-nav"><ul class="main">
 	<li><a href="/">Blog</a></li>
-	<li><a href="/archives">Archive</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
 </ul>
 </nav>
-
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:arzamas-16.ru">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="http://arzamas-16.ru/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:arzamas-16.ru">
+	</form>
+</nav>
 
 </header>
-
+	
+		
+	
 	<div id="content" class="inner">  <!-- Getting started
   ================================================== -->
   <div class="bs-docs-section">
@@ -906,11 +945,22 @@ img { max-width: none; }</code></pre>
   </div>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2014
- author 
-<br>
-Powered by Octopress.
+
+    author
+
 </footer>
-	
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
 
 </body>
 </html>
